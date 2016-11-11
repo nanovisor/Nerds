@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NERDS - МАГАЗИН</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" width="139" height="56" alt="Логотип"></a>
+      </div>
+
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li class="active"><a href="catalog.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="cart-block">
+        <a class="cart" href="#"><i class="icon-basket"></i>Корзина</a>
+      </div>
+    </div>
+
+    <div class="catalog-title">
+      <h1>Добро пожаловать в магазин<br> готовых макетов</h1>
+    </div>
+  </header>
+
+  <!-- MAIN-CONTENT -->
+  <div class="catalog container clearfix">
+
+    <!-- aside -->
+    <div class="aside-form">
+      <form action="#" method="POST">
+        <p>Стоимость:</p>
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar" style="width:70%;"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-controls">
+            от <input class="min-price" type="text" value="0"> до <input class="max-price" type="text" value="15 000">
+          </div>
+        </div>
+        <p>Сетка:</p>
+        <input type="radio" name="layout" id="adaptive" checked>
+        <label for="adaptive">Адаптивная</label><br>
+        <input type="radio" name="layout" id="fixed">
+        <label for="fixed">Фиксированная</label><br>
+        <input type="radio" name="layout" id="responsive">
+        <label for="responsive">Резиновая</label><br>
+        <p>Особенности:</p>
+        <input type="checkbox" id="slider" checked>
+        <label for="slider">Слайдер</label><br>
+        <input type="checkbox" id="features-block">
+        <label for="features-block">Блок преимуществ</label><br>
+        <input type="checkbox" id="news" checked>
+        <label for="news">Новости</label><br>
+        <input type="checkbox" id="gallery">
+        <label for="gallery">Галерея</label><br>
+        <input type="checkbox" id="cart">
+        <label for="cart">Корзина</label><br>
+        <button type="submit">Показать</button>
+      </form>
+    </div>
+
+    <!-- catalog -->
+    <div class="catalog-list">
+      <div class="catalog-list-header clearfix">
+        <div class="title">Сортировать:</div>
+        <ul>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По функционалу</a></li>
+        </ul>
+        <div class="nav-block">
+          <a href="#"><i class="icon-down-dir"></i></a>
+          <a href="#"><i class="icon-up-dir"></i></a>
+        </div>
+      </div>
+
+      <!-- catalog-items -->
+      <div class="catalog-items">
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-1.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-2.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-3.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-4.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-5.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+
+        <div class="catalog-item">
+          <div class="header-box">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="title">SUNSET</div>
+            <div class="description">Интернет-магазин с личным кабинетом</div>
+            <a href="">10 000 Р.</a>
+          </div>
+          <div class="image">
+            <img src="img/item-6.jpg" width="240" height="240" alt="item">
+          </div>
+        </div>
+      </div>
+
+      <!-- pagination -->
+      <div class="paginator">
+        <a class="current-page-paginator" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a class="next-page-paginator" href="#">Следующая</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <!-- MAP -->
+    <div class="map-wrapper">
+      <div id="map"></div>
+
+      <div class="map-adress-block">
+        <div class="title"><span>NЁRDS</span> DESIGN STUDIO</div>
+        <p>350000, Краснодар, ул. Головатого, 100</p>
+        <a class="tel" href="tel:78612757575">тел. +7 (861) 275-75-75</a>
+        <a class="btn" id="open-form" href="#">Напишите нам</a>
+      </div>
+    </div>
+
+    <!-- social -->
+    <div class="social-text-block">
+      <div class="container clearfix">
+        <div class="social-buttons">
+          <a class="social-button vk" href="#"><i class="icon-vk"></i></a>
+          <a class="social-button fb" href="#"><i class="icon-facebook"></i></a>
+          <a class="social-button instagram" href="#"><i class="icon-instagramm"></i></a>
+        </div>
+        <div class="footer-text">
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-content">
+    <div class="modal-form">
+      <form class="write-us-form" action="/echo" method="post">
+        <div class="modal-form-left">
+          <p>Ваше имя</p>
+          <input id="name" name="name" placeholder="ПРЕДСТАВЬТЕСЬ, ПОЖАЛУЙСТА" type="text" required>
+        </div>
+        <div class="modal-form-right">
+          <p>Ваш e-mail:</p>
+          <input id="email" name="email" placeholder="ДЛЯ ОТПРАВКИ ОТВЕТА:" type="email" required>
+        </div>
+        <p>Текст письма:</p>
+        <textarea name="text" id="massage" placeholder="В СВОБОДНОЙ ФОРМЕ" cols="55" rows="4" required></textarea>
+        <input type="submit">
+        <button id="close-form">ОТМЕНА</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+
+  <script src="js/google-map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOhJV7X_LrEpSxpGsfuNqsdnyyqiUxvxo&callback=initMap" async defer></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>
