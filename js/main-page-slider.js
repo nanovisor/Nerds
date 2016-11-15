@@ -1,11 +1,14 @@
-var inputs = document.querySelectorAll('.slider input');
+;(function() {
 
-var inputNumber = 0;
+  var inputs = document.querySelectorAll('.slider input'),
+      inputNumber = 0;
 
-setInterval(function() {
-  if (inputNumber > inputs.length - 1) inputNumber = 0; // repeat
+  setInterval(function() {
+    if (inputNumber > inputs.length - 1) inputNumber = 0; // repeat
 
-  inputs[inputNumber].checked = true;
+    inputs[inputNumber].checked = true;
 
-  inputNumber++;
-}, 3000);
+    inputNumber++;
+  }, 3000);
+
+})();

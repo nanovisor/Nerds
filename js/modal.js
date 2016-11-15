@@ -1,4 +1,4 @@
-(function() {
+;(function() {
 
   var modal = document.querySelector('.modal-content'),
       form = modal.querySelector('.write-us-form'),
